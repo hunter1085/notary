@@ -14,7 +14,7 @@ import (
 
 	"github.com/docker/go/canonical/json"
 	"github.com/sirupsen/logrus"
-	"golang.org/x/crypto/ed25519"
+	"crypto/ed25519"
 )
 
 // PublicKey is the necessary interface for public keys
