@@ -13,11 +13,11 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/passphrase"
-	store "github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/trustpinning"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/passphrase"
+	store "github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/trustpinning"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // Once a fixture is read in, ensure that it's valid by making sure the expiry

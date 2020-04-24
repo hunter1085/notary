@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary"
+	"github.com/hunter1085/notary"
 )
 
 func testSetSignalTrap(t *testing.T) {

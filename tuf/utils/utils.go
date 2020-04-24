@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // StrSliceContains checks if the given string appears in the slice

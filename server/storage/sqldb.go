@@ -10,7 +10,7 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // SQLStorage implements a versioned store using a relational database.

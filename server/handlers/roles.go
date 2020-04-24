@@ -10,12 +10,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/server/errors"
-	"github.com/theupdateframework/notary/server/storage"
-	"github.com/theupdateframework/notary/server/timestamp"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/server/errors"
+	"github.com/hunter1085/notary/server/storage"
+	"github.com/hunter1085/notary/server/timestamp"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
 )
 
 func getRole(ctx context.Context, store storage.MetaStore, gun data.GUN, role data.RoleName, checksum, version string) (*time.Time, []byte, error) {

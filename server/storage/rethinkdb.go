@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary/storage/rethinkdb"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/storage/rethinkdb"
+	"github.com/hunter1085/notary/tuf/data"
 	gorethink "gopkg.in/rethinkdb/rethinkdb-go.v6"
 )
 

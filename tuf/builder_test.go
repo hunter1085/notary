@@ -11,13 +11,13 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/trustpinning"
-	"github.com/theupdateframework/notary/tuf"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
-	"github.com/theupdateframework/notary/tuf/testutils"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/trustpinning"
+	"github.com/hunter1085/notary/tuf"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
+	"github.com/hunter1085/notary/tuf/testutils"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 var _cachedMeta map[data.RoleName][]byte

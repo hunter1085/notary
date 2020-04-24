@@ -1,11 +1,11 @@
 package api
 
 import (
-	"github.com/theupdateframework/notary/signer"
-	"github.com/theupdateframework/notary/trustmanager"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/signer"
+	"github.com/hunter1085/notary/trustmanager"
+	"github.com/hunter1085/notary/tuf/data"
 
-	pb "github.com/theupdateframework/notary/proto"
+	pb "github.com/hunter1085/notary/proto"
 )
 
 // findKeyByID looks for the key with the given ID in each of the

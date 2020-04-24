@@ -15,10 +15,10 @@ import (
 
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/passphrase"
-	"github.com/theupdateframework/notary/server/storage"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/passphrase"
+	"github.com/hunter1085/notary/server/storage"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // the default location for the config file is in ~/.notary/config.json - even if it doesn't exist.

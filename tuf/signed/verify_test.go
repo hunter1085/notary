@@ -7,9 +7,9 @@ import (
 
 	"github.com/docker/go/canonical/json"
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 func TestRoleNoKeys(t *testing.T) {

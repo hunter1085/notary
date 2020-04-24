@@ -13,8 +13,8 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary/utils"
-	"github.com/theupdateframework/notary/version"
+	"github.com/hunter1085/notary/utils"
+	"github.com/hunter1085/notary/version"
 )
 
 const (

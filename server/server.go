@@ -13,11 +13,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary/server/errors"
-	"github.com/theupdateframework/notary/server/handlers"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
-	"github.com/theupdateframework/notary/utils"
+	"github.com/hunter1085/notary/server/errors"
+	"github.com/hunter1085/notary/server/handlers"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
+	"github.com/hunter1085/notary/utils"
 	"golang.org/x/net/context"
 )
 

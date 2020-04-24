@@ -11,7 +11,7 @@ import (
 	"math/big"
 
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/data"
 	"golang.org/x/crypto/ed25519"
 )
 

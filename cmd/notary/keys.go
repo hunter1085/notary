@@ -14,13 +14,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/theupdateframework/notary"
-	notaryclient "github.com/theupdateframework/notary/client"
-	"github.com/theupdateframework/notary/cryptoservice"
-	store "github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/trustmanager"
-	"github.com/theupdateframework/notary/tuf/data"
-	tufutils "github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary"
+	notaryclient "github.com/hunter1085/notary/client"
+	"github.com/hunter1085/notary/cryptoservice"
+	store "github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/trustmanager"
+	"github.com/hunter1085/notary/tuf/data"
+	tufutils "github.com/hunter1085/notary/tuf/utils"
 )
 
 var cmdKeyTemplate = usageTemplate{

@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/spf13/cobra"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/passphrase"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/passphrase"
 )
 
 func init() {

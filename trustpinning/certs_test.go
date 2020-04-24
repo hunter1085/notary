@@ -21,14 +21,14 @@ import (
 	"github.com/docker/go/canonical/json"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/cryptoservice"
-	"github.com/theupdateframework/notary/trustmanager"
-	"github.com/theupdateframework/notary/trustpinning"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
-	"github.com/theupdateframework/notary/tuf/testutils"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/cryptoservice"
+	"github.com/hunter1085/notary/trustmanager"
+	"github.com/hunter1085/notary/trustpinning"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
+	"github.com/hunter1085/notary/tuf/testutils"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 type SignedRSARootTemplate struct {

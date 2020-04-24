@@ -16,7 +16,7 @@ import (
 
 	"github.com/docker/go/canonical/json"
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary"
+	"github.com/hunter1085/notary"
 )
 
 // GUN is a Globally Unique Name. It is used to identify trust collections.

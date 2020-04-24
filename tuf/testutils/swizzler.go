@@ -6,13 +6,13 @@ import (
 	"time"
 
 	"github.com/docker/go/canonical/json"
-	"github.com/theupdateframework/notary/cryptoservice"
-	"github.com/theupdateframework/notary/passphrase"
-	store "github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/trustmanager"
-	"github.com/theupdateframework/notary/tuf"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
+	"github.com/hunter1085/notary/cryptoservice"
+	"github.com/hunter1085/notary/passphrase"
+	store "github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/trustmanager"
+	"github.com/hunter1085/notary/tuf"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
 )
 
 // ErrNoKeyForRole returns an error when the cryptoservice provided to

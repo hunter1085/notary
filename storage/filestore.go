@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary"
+	"github.com/hunter1085/notary"
 )
 
 // NewFileStore creates a fully configurable file store

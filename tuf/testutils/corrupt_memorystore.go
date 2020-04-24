@@ -1,8 +1,8 @@
 package testutils
 
 import (
-	store "github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/tuf/data"
+	store "github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // CorruptingMemoryStore corrupts all data returned by GetMeta

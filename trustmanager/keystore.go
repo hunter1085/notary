@@ -7,10 +7,10 @@ import (
 	"sync"
 
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary"
-	store "github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary"
+	store "github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 type keyInfoMap map[string]KeyInfo

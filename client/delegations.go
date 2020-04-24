@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/client/changelist"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/client/changelist"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 // AddDelegation creates changelist entries to add provided delegation public keys and paths.

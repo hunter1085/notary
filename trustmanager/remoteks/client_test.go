@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/trustmanager"
+	"github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/trustmanager"
 	"google.golang.org/grpc/credentials"
 )
 

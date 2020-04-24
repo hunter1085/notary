@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/tuf/data"
 	"golang.org/x/crypto/ed25519"
 )
 

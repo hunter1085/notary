@@ -10,9 +10,9 @@ import (
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary/cryptoservice"
-	testutils "github.com/theupdateframework/notary/tuf/testutils/keys"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary/cryptoservice"
+	testutils "github.com/hunter1085/notary/tuf/testutils/keys"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 func setup(trustDir string) *delegationCommander {

@@ -6,11 +6,11 @@ import (
 	"github.com/sirupsen/logrus"
 
 	"github.com/docker/go/canonical/json"
-	"github.com/theupdateframework/notary/server/storage"
-	"github.com/theupdateframework/notary/trustpinning"
-	"github.com/theupdateframework/notary/tuf"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
+	"github.com/hunter1085/notary/server/storage"
+	"github.com/hunter1085/notary/trustpinning"
+	"github.com/hunter1085/notary/tuf"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
 )
 
 // GetOrCreateSnapshotKey either creates a new snapshot key, or returns

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/docker/go/canonical/json"
-	"github.com/theupdateframework/notary"
+	"github.com/hunter1085/notary"
 )
 
 // SignedTimestamp is a fully unpacked timestamp.json

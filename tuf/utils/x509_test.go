@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 func TestCertsToKeys(t *testing.T) {

@@ -2,7 +2,7 @@
 
 package client
 
-import "github.com/theupdateframework/notary/trustmanager/yubikey"
+import "github.com/hunter1085/notary/trustmanager/yubikey"
 
 // clear out all keys
 func init() {

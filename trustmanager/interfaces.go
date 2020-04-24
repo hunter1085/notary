@@ -1,7 +1,7 @@
 package trustmanager
 
 import (
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // Storage implements the bare bones primitives (no hierarchy)

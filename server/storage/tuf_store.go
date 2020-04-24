@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/docker/go/canonical/json"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // TUFMetaStorage wraps a MetaStore in order to walk the TUF tree for GetCurrent in a consistent manner,

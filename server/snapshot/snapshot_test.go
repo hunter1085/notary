@@ -10,10 +10,10 @@ import (
 
 	"github.com/docker/go/canonical/json"
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary/server/storage"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
-	"github.com/theupdateframework/notary/tuf/testutils"
+	"github.com/hunter1085/notary/server/storage"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
+	"github.com/hunter1085/notary/tuf/testutils"
 )
 
 func TestSnapshotExpired(t *testing.T) {

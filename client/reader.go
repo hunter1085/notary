@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	canonicaljson "github.com/docker/go/canonical/json"
-	store "github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/tuf"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/utils"
+	store "github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/tuf"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 // Target represents a simplified version of the data TUF operates on, so external

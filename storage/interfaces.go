@@ -1,7 +1,7 @@
 package storage
 
 import (
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // NoSizeLimit is represented as -1 for arguments to GetMeta

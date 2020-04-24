@@ -12,9 +12,9 @@ import (
 
 	"github.com/docker/distribution/health"
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary/server"
-	"github.com/theupdateframework/notary/utils"
-	"github.com/theupdateframework/notary/version"
+	"github.com/hunter1085/notary/server"
+	"github.com/hunter1085/notary/utils"
+	"github.com/hunter1085/notary/version"
 )
 
 // DebugAddress is the debug server address to listen on

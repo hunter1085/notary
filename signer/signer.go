@@ -3,10 +3,10 @@ package signer
 import (
 	"crypto/tls"
 
-	pb "github.com/theupdateframework/notary/proto"
-	"github.com/theupdateframework/notary/trustmanager"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
+	pb "github.com/hunter1085/notary/proto"
+	"github.com/hunter1085/notary/trustmanager"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
 )
 
 // SigningService is the interface to implement a key management and signing service

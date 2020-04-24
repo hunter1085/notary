@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/theupdateframework/notary/client/changelist"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
+	"github.com/hunter1085/notary/client/changelist"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
 )
 
 // ReadOnly represents the set of options that must be supported over a TUF repo for

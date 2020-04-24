@@ -10,8 +10,8 @@ import (
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/docker/distribution/registry/client/auth/challenge"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/theupdateframework/notary/trustpinning"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/trustpinning"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 func Example() {

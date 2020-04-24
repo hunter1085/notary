@@ -10,10 +10,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary/client/changelist"
-	"github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/testutils"
+	"github.com/hunter1085/notary/client/changelist"
+	"github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/testutils"
 )
 
 func TestApplyTargetsChange(t *testing.T) {

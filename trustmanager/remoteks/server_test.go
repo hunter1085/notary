@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary/storage"
+	"github.com/hunter1085/notary/storage"
 	"golang.org/x/net/context"
 )
 

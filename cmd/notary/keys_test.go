@@ -20,17 +20,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/client"
-	"github.com/theupdateframework/notary/cryptoservice"
-	"github.com/theupdateframework/notary/passphrase"
-	"github.com/theupdateframework/notary/server"
-	"github.com/theupdateframework/notary/server/storage"
-	store "github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/trustmanager"
-	"github.com/theupdateframework/notary/trustpinning"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/client"
+	"github.com/hunter1085/notary/cryptoservice"
+	"github.com/hunter1085/notary/passphrase"
+	"github.com/hunter1085/notary/server"
+	"github.com/hunter1085/notary/server/storage"
+	store "github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/trustmanager"
+	"github.com/hunter1085/notary/trustpinning"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 var ret = passphrase.ConstantRetriever("pass")

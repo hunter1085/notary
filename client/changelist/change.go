@@ -1,7 +1,7 @@
 package changelist
 
 import (
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // Scopes for TUFChanges are simply the TUF roles.

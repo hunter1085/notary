@@ -6,10 +6,10 @@ import (
 	"time"
 
 	jose "github.com/dvsekhvalnov/jose2go"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/storage/rethinkdb"
-	"github.com/theupdateframework/notary/trustmanager"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/storage/rethinkdb"
+	"github.com/hunter1085/notary/trustmanager"
+	"github.com/hunter1085/notary/tuf/data"
 	gorethink "gopkg.in/rethinkdb/rethinkdb-go.v6"
 )
 

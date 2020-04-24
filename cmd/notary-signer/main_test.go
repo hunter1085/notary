@@ -12,12 +12,12 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/signer"
-	"github.com/theupdateframework/notary/signer/keydbstore"
-	"github.com/theupdateframework/notary/trustmanager"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/testutils"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/signer"
+	"github.com/hunter1085/notary/signer/keydbstore"
+	"github.com/hunter1085/notary/trustmanager"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/testutils"
 )
 
 const (

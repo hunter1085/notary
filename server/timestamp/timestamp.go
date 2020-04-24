@@ -5,15 +5,15 @@ import (
 	"time"
 
 	"github.com/docker/go/canonical/json"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/trustpinning"
-	"github.com/theupdateframework/notary/tuf"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/trustpinning"
+	"github.com/hunter1085/notary/tuf"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
 
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary/server/snapshot"
-	"github.com/theupdateframework/notary/server/storage"
+	"github.com/hunter1085/notary/server/snapshot"
+	"github.com/hunter1085/notary/server/storage"
 )
 
 // GetOrCreateTimestampKey returns the timestamp key for the gun. It uses the store to

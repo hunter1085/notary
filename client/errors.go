@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // ErrRepoNotInitialized is returned when trying to publish an uninitialized

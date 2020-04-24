@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 // TrustPinConfig represents the configuration under the trust_pinning section of the config file

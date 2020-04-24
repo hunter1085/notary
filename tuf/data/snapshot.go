@@ -6,7 +6,7 @@ import (
 
 	"github.com/docker/go/canonical/json"
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary"
+	"github.com/hunter1085/notary"
 )
 
 // SignedSnapshot is a fully unpacked snapshot.json

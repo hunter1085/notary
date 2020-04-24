@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/theupdateframework/notary"
+	"github.com/hunter1085/notary"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

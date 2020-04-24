@@ -7,8 +7,8 @@ import (
 	ctxu "github.com/docker/distribution/context"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/server/storage"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/server/storage"
 )
 
 type changefeedArgs struct {

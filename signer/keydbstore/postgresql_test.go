@@ -13,7 +13,7 @@ import (
 	_ "github.com/lib/pq"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary"
+	"github.com/hunter1085/notary"
 )
 
 func init() {

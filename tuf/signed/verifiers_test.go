@@ -15,7 +15,7 @@ import (
 	"text/template"
 
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 type KeyTemplate struct {

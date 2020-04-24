@@ -6,9 +6,9 @@ import (
 
 	jose "github.com/dvsekhvalnov/jose2go"
 	"github.com/jinzhu/gorm"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/trustmanager"
-	"github.com/theupdateframework/notary/tuf/data"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/trustmanager"
+	"github.com/hunter1085/notary/tuf/data"
 )
 
 // Constants

@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary/client/changelist"
-	store "github.com/theupdateframework/notary/storage"
-	"github.com/theupdateframework/notary/tuf"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/signed"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary/client/changelist"
+	store "github.com/hunter1085/notary/storage"
+	"github.com/hunter1085/notary/tuf"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/signed"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 // Use this to initialize remote HTTPStores from the config settings

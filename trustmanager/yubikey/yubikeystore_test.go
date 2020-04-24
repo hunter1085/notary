@@ -11,10 +11,10 @@ import (
 
 	"github.com/miekg/pkcs11"
 	"github.com/stretchr/testify/require"
-	"github.com/theupdateframework/notary/passphrase"
-	"github.com/theupdateframework/notary/trustmanager"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary/passphrase"
+	"github.com/hunter1085/notary/trustmanager"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 var ret = passphrase.ConstantRetriever("passphrase")

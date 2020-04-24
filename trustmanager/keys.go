@@ -11,9 +11,9 @@ import (
 	"strings"
 
 	"github.com/sirupsen/logrus"
-	"github.com/theupdateframework/notary"
-	tufdata "github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/tuf/utils"
+	"github.com/hunter1085/notary"
+	tufdata "github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/tuf/utils"
 )
 
 // Exporter is a simple interface for the two functions we need from the Storage interface

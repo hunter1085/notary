@@ -11,10 +11,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/theupdateframework/notary"
-	"github.com/theupdateframework/notary/passphrase"
-	"github.com/theupdateframework/notary/tuf/data"
-	"github.com/theupdateframework/notary/version"
+	"github.com/hunter1085/notary"
+	"github.com/hunter1085/notary/passphrase"
+	"github.com/hunter1085/notary/tuf/data"
+	"github.com/hunter1085/notary/version"
 )
 
 const (
